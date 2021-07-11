@@ -1,0 +1,23 @@
+button {
+  border: none;
+
+  background-color: rgb(25, 155, 179);
+  border-left: 0.5rem rgb(30, 194, 216) solid;
+
+  padding: 0.5rem 2rem;
+  color: white;
+  
+  font-size: larger;
+
+  border-radius: 0.1rem;
+}
+button.login:hover {
+  background-color: rgb(30, 194, 216);
+}
+button.logout {
+  background-color: rgb(199, 47, 105);
+  border-left-color: rgb(240, 45, 126);
+}
+button.logout:hover {
+  background-color: rgb(240, 45, 126);
+}
