@@ -10,12 +10,16 @@ import { withAuth0 } from "@auth0/auth0-react";
 import "./App.css";
 
 class App extends React.Component {
+  constructor(props){
+    super(props);
+    
+  }
+  
   render() {
     const { user, isAuthenticated } = this.props.auth0;
     console.log(`user info vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv`);
     console.log(user);
     console.table(user); //
-    console.log("app", this.props);
     return (
       <div className="App">
         <Router>
