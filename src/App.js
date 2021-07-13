@@ -17,9 +17,9 @@ class App extends React.Component {
   
   render() {
     const { user, isAuthenticated } = this.props.auth0;
-    console.log(`user info vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv`);
-    console.log(user);
-    console.table(user); //
+    // console.log(`user info vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv`);
+    // console.log(user);
+    // console.table(user); //
     return (
       <div className="App">
         <Router>
